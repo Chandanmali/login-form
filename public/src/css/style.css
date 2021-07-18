@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+:root {
+    --primary: #5138ee;
+    --secondary: #000012;
+    --light: #706c87;
+}
+
+.main {
+    max-width: 88%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header-down-description p {
+    font-size: 11px;
+    position: relative;
+    bottom: 15px;
+}
+
+.sign-in-with-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid var(--light);
+    border-radius: 50px;
+}
+
+.sign-in-with-google img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sign-in-with-google p {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/*  */
+
+.sign-in-with-email-area-header {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.underline {
+    width: 30%;
+}
+
+.email-area-header-title {
+    font-size: 10px;
+    margin: 0px 5px;
+    width: 44%;
+}
+
+/*  */
+
+.email-area p, .password-area p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email-area input, .password-area input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--light);
+    font-size: 13px;
+    border-radius: 50px;
+    outline: none;
+    position: relative;
+    bottom: 10px;
+}
+
+/*  */
+
+.remember-mr {
+    display: flex;
+    align-items: center;
+    /* cursor: pointer; */
+    font-weight: 500;
+}
+
+.remember-mr input {
+    cursor: pointer;
+}
+
+.remember-forget-pass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}
+
+.forget-password {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+/*  */
+
+.login-btn button {
+    width: 108%;
+    padding: 8px 0px;
+    border: 1px solid var(--light);
+    font-size: 13px;
+    border-radius: 50px;
+    outline: none;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*  */
+.not-register-area p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.not-register-area span{
+    color: var(--primary);
+    cursor: pointer;
+}
