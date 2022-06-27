@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>About Us</title>
+</head>
+<body>
+</head>
+<body>
+             
+
+  <nav class="fixed">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">CM-Tour</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+        ><i class="material-icons">menu</i></a
+      >
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <a class="waves-effect waves-light btn modal-trigger teal lighten-2" href="#modal1">SIGN-UP</a>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav grey center-align" id="mobile-demo">
+    <li><a href="index.html" class="h hoverable">HOME</a></li>
+    <li><a href="about.html" class="h hoverable">ABOUT</a></li>
+    <li><a href="contact.html" class="h hoverable">CONTACT</a></li>
+    <a class="waves-effect waves-light btn modal-trigger #004d40 teal darken-4 center-align hoverable" href="#modal1"> SIGN-UP</a> 
+  </ul>
+
+      <!-- About section -->
+      <section>
+        <h2 class="center-align">About Us</h2>
+
+        <div class="row">
+           <div class="col s4 m4 l4 offset-l4 offset-s4"><hr></div>  <!--grid is 12 for every device  -->
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <img src="./images/t1.jpg" class="responsive-img hoverable" alt="">
+          </div>
+
+          <div class="col m6 s12">
+            <h4>Who We Are</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, obcaecati optio necessitatibus eius cumque sapiente earum. Alias illum tempora deserunt. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officiis laborum, doloremque consequuntur aliquid repudiandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur asperiores minima porro vel laborum autem aliquid, nobis nesciunt necessitatibus architecto saepe rem ipsa, sed doloribus!</p>
+            <a class="waves-effect waves-light btn" href="about.html" target="_blank">KNOW MORE<i class="material-icons right">send</i></a>
+
+          </div>
+        </div>
+      </section>
+ 
+      <!-- package -->
+      <section>
+        <h2 class="center-align">OUR PARTNERS</h2>
+
+        <div class="row">
+           <div class="col s4 m4 l4 offset-l4 offset-s4"><hr></div>  <!--grid is 12 for every device  -->
+           
+        </div>
+        <ul class="collapsible">
+         <li>
+           <div class="collapsible-header"><i class="material-icons">filter_drama</i>CLOUDERED</div>
+           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil illum assumenda commodi aliquam aliquid eos unde, voluptatem sunt iusto veritatis placeat reiciendis magnam minus repellendus et mollitia magni blanditiis soluta adipisci praesentium! Architecto, soluta perspiciatis eius officia est suscipit ut itaque impedit neque, quasi dolorum sed iure deleniti odit sit.</span></div>
+         </li>
+         <li>
+           <div class="collapsible-header"><i class="material-icons">place</i>LANKESHARE</div>
+           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos expedita non amet, aspernatur maxime commodi. Esse repellat, magnam consequatur accusantium deleniti, placeat nobis doloribus itaque sunt velit quaerat hic nam odio. Ipsa tempore quam distinctio, voluptas sed atque id quisquam corporis, omnis dignissimos ea architecto voluptatibus quod cupiditate eum delectus dolorem consequuntur reprehenderit nulla minus, hic possimus et blanditiis? Sapiente asperiores veritatis laborum cumque laudantium, odio cupiditate tempora dolore iusto!</span></div>
+         </li>
+         <li>
+           <div class="collapsible-header"><i class="material-icons">whatshot</i>FIRECOME</div>
+           <div class="collapsible-body"><span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident fuga, sit aut atque ipsum, temporibus laboriosam quae praesentium quidem, numquam delectus. Non expedita et cum fuga atque, error officiis?</span></div>
+         </li>
+       </ul>
+     </section>
+
+      
+
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+         <div class="row">
+           <form class="col s12">
+             <div class="row">
+               
+               
+             </div>
+             
+             <div class="row">
+               <div class="input-field col s12">
+                 <input id="email" type="email" class="validate">
+                 <label for="email">Email</label>
+               </div>
+             </div>
+             <div class="row">
+               <div class="input-field col s12">
+                 <input id="password" type="password" class="validate">
+                 <label for="password">Password</label>
+               </div>
+             </div>
+             <a class="btn waves-effect waves-light offset-l6" type="submit" name="action"  onclick="M.toast({html: 'Thank you For Sign-Up in our website'})"> Sign-Up
+               <i class="material-icons right offset-l6 offset-m6">send</i>
+             </a>
+             
+           </form>
+         </div>
+        </div>
+        </div>
+        
+
+     <!-- footer section -->
+
+     <footer class="page-footer">
+       <div class="container">
+         <div class="row">
+           <div class="col l6 s12">
+             <h5 class="white-text">Connect With Us</h5>
+             <p class="grey-text text-lighten-4">Worlds best tour and travels Agency</p>
+           </div>
+           <div class="col l4 offset-l2 s12">
+             <h5 class="white-text">Handles</h5>
+             <ul>
+               <li><a class="grey-text text-lighten-3" href="facebook.com">FACEBOOK</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">INSTAGRAM</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">TWITTER</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">DESCORD</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <div class="footer-copyright">
+         <div class="container center-align">
+         © 2022 CM-Tour
+         <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+         </div>
+       </div>
+     </footer>
+         
+
+
+
+
+      <!-- Compiled and minified JavaScript -->
+
+    <script>
+        $(document).ready(function () {
+          $(".sidenav").sidenav();
+  
+          $('.carousel.carousel-slider').carousel({
+          fullWidth: true,
+          indicators: true
+          
+  
+         
+      });
+  
+      $('.fixed-action-btn').floatingActionButton();
+      $('.materialboxed').materialbox();
+      $('input#ask').characterCounter();
+      $('input#mobile').characterCounter();
+      $('.datepicker').datepicker();
+      $('.modal').modal();
+      $('.collapsible').collapsible();
+          
+        });
+        
+   
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

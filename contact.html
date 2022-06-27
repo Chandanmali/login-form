@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Contact Form</title>
+</head>
+<body>
+</head>
+<body>
+  <nav class="fixed">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">CM-Tour</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+        ><i class="material-icons">menu</i></a
+      >
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <a class="waves-effect waves-light btn modal-trigger teal lighten-2" href="#modal1">SIGN-UP</a>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav grey center-align" id="mobile-demo">
+    <li><a href="index.html" class="h hoverable">HOME</a></li>
+    <li><a href="about.html" class="h hoverable">ABOUT</a></li>
+    <li><a href="contact.html" class="h hoverable">CONTACT</a></li>
+    <a class="waves-effect waves-light btn modal-trigger #004d40 teal darken-4 center-align hoverable" href="#modal1"> SIGN-UP</a> 
+  </ul>
+
+
+      <!-- Contact form -->
+
+      <section>
+        <h2 class="center-align">CONTACT FORM</h2>
+
+        <div class="row">
+         <div class="col s4 m4 l4 offset-l4 offset-s4"><hr></div> <!--grid is 12 for every device-->
+        </div>
+        
+        <div class="row">
+          <div class="col m6 l6 offset-l3 offset-m4">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input placeholder="first name" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="text" type="text" class="datepicker">
+                    <label for="text">Birth Date</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="mobile" type="text" class="validate" data-length="10">
+                    <label for="mobile">Mobile Number</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12 ">
+                    <!-- <textarea id="mobile" class="materialize-textarea"></textarea> -->
+                    <input id="ask" type="text" class="validate" data-length="1000">
+                    <label for="ask">Ask Your Question</label>
+                  </div>
+                </div>
+                
+                <a class="btn waves-effect waves-light offset-l6" type="submit" name="action"  onclick="M.toast({html: 'Thank you For Submit Your Form'})">Submit
+                  <i class="material-icons right offset-l6 offset-m6">send</i>
+                </a>
+        
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+         <div class="row">
+           <form class="col s12">
+             <div class="row">
+               
+               
+             </div>
+             
+             <div class="row">
+               <div class="input-field col s12">
+                 <input id="email" type="email" class="validate">
+                 <label for="email">Email</label>
+               </div>
+             </div>
+             <div class="row">
+               <div class="input-field col s12">
+                 <input id="password" type="password" class="validate">
+                 <label for="password">Password</label>
+               </div>
+             </div>
+             <a class="btn waves-effect waves-light offset-l6" type="submit" name="action"  onclick="M.toast({html: 'Thank you For Sign-Up in our website'})"> Sign-Up
+               <i class="material-icons right offset-l6 offset-m6">send</i>
+             </a>
+             
+           </form>
+         </div>
+        </div>
+        </div>
+        
+
+     <!-- footer section -->
+
+     <footer class="page-footer">
+       <div class="container">
+         <div class="row">
+           <div class="col l6 s12">
+             <h5 class="white-text">Connect With Us</h5>
+             <p class="grey-text text-lighten-4">Worlds best tour and travels Agency</p>
+           </div>
+           <div class="col l4 offset-l2 s12">
+             <h5 class="white-text">Handles</h5>
+             <ul>
+               <li><a class="grey-text text-lighten-3" href="facebook.com">FACEBOOK</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">INSTAGRAM</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">TWITTER</a></li>
+               <li><a class="grey-text text-lighten-3" href="#!">DESCORD</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <div class="footer-copyright">
+         <div class="container center-align">
+         © 2022 CM-Tour
+         <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+         </div>
+       </div>
+     </footer>
+         
+
+
+
+      <!-- Compiled and minified JavaScript -->
+
+    <script>
+        $(document).ready(function () {
+          $(".sidenav").sidenav();
+  
+          $('.carousel.carousel-slider').carousel({
+          fullWidth: true,
+          indicators: true
+          
+  
+         
+      });
+  
+      $('.fixed-action-btn').floatingActionButton();
+      $('.materialboxed').materialbox();
+      $('input#ask').characterCounter();
+      $('input#mobile').characterCounter();
+      $('.datepicker').datepicker();
+      $('.modal').modal();
+          
+        });
+        
+   
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
